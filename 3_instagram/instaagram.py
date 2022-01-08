@@ -1,19 +1,19 @@
 from instabot import Bot
 bot = Bot()
-bot.login(username="pyinsta_bot_99", password="PythonProject")
+bot.login(username="PYInsta_Bot_99", password="PythonProject")
 
 ######  upload a picture #######
-bot.upload_photo("yoda.jpg", caption="biscuit eating baby")
+bot.upload_photo("computer.jpg", caption="computer")
 
 ######  follow someone #######
-bot.follow("elonrmuskk")
+bot.follow("yashkumar_jain_62")
 
 ######  send a message #######
-bot.send_message("Hello from Dhaval", ['user1','user2'])
+bot.send_message("Hello from Me", ['yashkumar_jain_62'])
 
 ######  get follower info #######
 my_followers = bot.get_user_followers("dhavalsays")
 for follower in my_followers:
     print(follower)
 
-bot.unfollow_everyone()
+#bot.unfollow_everyone()
