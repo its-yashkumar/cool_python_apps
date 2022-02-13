@@ -3,10 +3,10 @@ bot = Bot()
 bot.login(username="PYInsta_Bot_99", password="PythonProject")
 
 ######  upload a picture #######
-bot.upload_photo("computer.jpg", caption="computer")
+# bot.upload_photo("computer.jpg", caption="computer")
 
 ######  follow someone #######
-bot.follow("yashkumar_jain_62")
+bot.follow("vinayak_dixit_7707_")
 
 ######  send a message #######
 bot.send_message("Hello from Me", ['yashkumar_jain_62'])
